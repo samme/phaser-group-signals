@@ -1,6 +1,6 @@
 {
   "name": "phaser-group-signals",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds onChildAdded, onChildKilled, onChildRemoved, onChildRevived",
   "main": "index.js",
   "scripts": {
