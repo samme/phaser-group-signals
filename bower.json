@@ -1,0 +1,24 @@
+{
+  "name": "phaser-group-signals",
+  "description": "Adds onChildAdded, onChildKilled, onChildRemoved, onChildRevived",
+  "main": "index.js",
+  "authors": [
+    "samme"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "events"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "*"
+  }
+}

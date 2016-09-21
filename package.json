@@ -1,0 +1,14 @@
+{
+  "name": "phaser-group-signals",
+  "version": "0.0.0",
+  "description": "Adds onChildAdded, onChildKilled, onChildRemoved, onChildRevived",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffeebar --watch index.coffee"
+  },
+  "author": "samme",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "*"
+  }
+}
