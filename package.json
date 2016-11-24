@@ -9,6 +9,6 @@
   "author": "samme",
   "license": "MIT",
   "dependencies": {
-    "phaser": "*"
+    "phaser": "^2.6.2"
   }
 }
