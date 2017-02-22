@@ -4,7 +4,9 @@
   "description": "Adds onChildAdded, onChildKilled, onChildRemoved, onChildRevived",
   "main": "index.js",
   "scripts": {
-    "start": "coffeebar --watch index.coffee"
+    "start": "coffeebar --watch .",
+    "preversion": "eslint .",
+    "publish": "np --no-cleanup --no-publish"
   },
   "author": "samme",
   "license": "MIT",
@@ -13,5 +15,17 @@
   },
   "devDependencies": {
     "coffeebar": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/phaser-group-signals.git"
+  },
+  "keywords": [
+    "phaser",
+    "phaser-signal"
+  ],
+  "bugs": {
+    "url": "https://github.com/samme/phaser-group-signals/issues"
+  },
+  "homepage": "https://github.com/samme/phaser-group-signals#readme"
 }
